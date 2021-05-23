@@ -26,6 +26,7 @@ When TELL-Seq libraries and Flex libraries are sequenced together, set 18 cycles
 <col style="width: 36px;" />
 </colgroup>
 <tr>
+</table>
  
 Note: TELL-Seq custom sequencing primers must be spiked into standard sequencing primer wells on the sequencing cartridge for a run with mixed library types. 
 
