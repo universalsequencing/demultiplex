@@ -11,12 +11,12 @@ When TELL-Seq libraries and Flex libraries are sequenced together, set 18 cycles
  ![image](https://user-images.githubusercontent.com/56447318/119270601-7fb11900-bbcb-11eb-9411-6f9043d07202.png)
  
 
- | Lane | Sample_ID | Sample_Name | Sample_Plate | Sample_Well | Index_Plate | Index_Plate_Well | I7_Index_ID | index | I5_Index_ID | index2 |Sample_Project|
- | :---: | :--------: | :--------: | :--------: | :-------: | :-------: | :---------: | :-------: | :----------------: | :-------: | :--------: |:--:|
- |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | TGTTCTAGNN |:--:|
- |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | TCGATTGANN |:--:|
- |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | ACTTAGCANN |:--:|
- |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | AAGGTTCANN |:--:|
+ |Lane|Sample_ID|Sample_Name|Sample_Plate|Sample_Well|Index_Plate|Index_Plate_Well|I7_Index_ID|index|I5_Index_ID|index2|Sample_Project|Description|
+ | :---: | :--------: | :--------: | :--------: | :-------: | :-------: | :---------: | :-------: | :----------------: | :-------: | :--------: |:--:|:--:|
+ |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | TGTTCTAGNN |||
+ |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | TCGATTGANN |||
+ |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | ACTTAGCANN |||
+ |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | AAGGTTCANN |||
  
  
 Note: TELL-Seq custom sequencing primers must be spiked into standard sequencing primer wells on the sequencing cartridge for a run with mixed library types. 
