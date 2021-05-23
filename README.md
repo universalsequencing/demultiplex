@@ -15,12 +15,25 @@ When TELL-Seq libraries and Flex libraries are sequenced together, set 18 cycles
  |<sub><sub>1|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>NNNNNNNNNNNNNNNNNN||<sub><sub>TCGATTGANN|||
  |<sub><sub>1|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>NNNNNNNNNNNNNNNNNN||<sub><sub>ACTTAGCANN|||
  |<sub><sub>1|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>NNNNNNNNNNNNNNNNNN||<sub><sub>AAGGTTCANN|||
-
-
+ |<sub><sub>2|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>ACTCGGCAATNNNNNNNN||<sub><sub>TTCAGTTGTC|||
+ |<sub><sub>2|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>GTCTAATGGCNNNNNNNN||<sub><sub>CCTGACCACT|||
+ |<sub><sub>2|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>CCATCTCGCCNNNNNNNN||<sub><sub>AACCATAGAA|||
+ |<sub><sub>2|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>CTGCGAGCCANNNNNNNN||<sub><sub>TGGCCGGATT|||
  
 Note: TELL-Seq custom sequencing primers must be spiked into standard sequencing primer wells on the sequencing cartridge for a run with mixed library types. 
 
-
+ 
+ |<sub><sub>Lane</sub>|<sub><sub>Sample_ID|<sub><sub>Sample_Name<sub>|<sub><sub>Sample_Plate|<sub><sub>Sample_Well|<sub><sub>Index_Plate|<sub><sub>Index_Plate_Well|<sub><sub>I7_Index_ID|<sub><sub>index|<sub><sub>I5_Index_ID|<sub><sub>index2|<sub><sub>Sample_Project|<sub><sub>Description|
+ | :-:| :-:| :-:| :-:| :-:| :-:| :-:| :-:| :-:| :-:| :-:|:-:|:-:|
+ |<sub><sub>1|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>NNNNNNNNNNNNNNNNNN||<sub><sub>TGTTCTAG|||
+ |<sub><sub>1|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>NNNNNNNNNNNNNNNNNN||<sub><sub>TCGATTGA|||
+ |<sub><sub>1|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>NNNNNNNNNNNNNNNNNN||<sub><sub>ACTTAGCA|||
+ |<sub><sub>1|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>NNNNNNNNNNNNNNNNNN||<sub><sub>AAGGTTCA|||
+ |<sub><sub>2|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>ACTCGGCAAT||<sub><sub>TTCAGTTGTC|||
+ |<sub><sub>2|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>GTCTAATGGC||<sub><sub>CCTGACCACT|||
+ |<sub><sub>2|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>CCATCTCGCC||<sub><sub>AACCATAGAA|||
+ |<sub><sub>2|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>CTGCGAGCCA||<sub><sub>TGGCCGGATT|||
+ 
 ## 2.	Sample sheet after sequencing run
 
 To proceed with sample demultiplexing after the sequencing run, the SampleSheet.csv file must be modified to remove N’s trailing the sample barcode for index 1 and index 2 sequences. All samples from the same lane must designate the same length for index 1 and index 2.
