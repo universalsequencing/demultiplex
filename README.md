@@ -24,7 +24,7 @@ Note: TELL-Seq custom sequencing primers must be spiked into standard sequencing
 
  
  |<sub><sub>Lane</sub>|<sub><sub>Sample_ID|<sub><sub>Sample_Name<sub>|<sub><sub>Sample_Plate|<sub><sub>Sample_Well|<sub><sub>Index_Plate|<sub><sub>Index_Plate_Well|<sub><sub>I7_Index_ID|<sub><sub>index|<sub><sub>I5_Index_ID|<sub><sub>index2|<sub><sub>Sample_Project|<sub><sub>Description|
- | :-:| :-:| :-:| :-:| :-:| :-:| :-:| :-:| :-:| :-| :-|:-:|:-:|
+ | :-:| :-:| :-:| :-:| :-:| :-:| :-:| :-:| :-| :-:| :-|:-:|:-:|
  |<sub><sub>1|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>NNNNNNNNNNNNNNNNNN||<sub><sub>TGTTCTAG|||
  |<sub><sub>1|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>NNNNNNNNNNNNNNNNNN||<sub><sub>TCGATTGA|||
  |<sub><sub>1|<sub><sub>TellSeq-01|<sub><sub>TellSeq-01||||||<sub><sub>NNNNNNNNNNNNNNNNNN||<sub><sub>ACTTAGCA|||
