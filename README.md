@@ -10,15 +10,17 @@ To ensure compatibility with downstream demultiplexing software, each lane shoul
 When TELL-Seq libraries and Flex libraries are sequenced together, set 18 cycles for index 1 and 10 cycles for index 2. When an index length is shorter than the sequencing cycle number, add additional Ns for the missing bases for the index sequences on the sample sheet. TELL-seq libraries should designate 18 Ns as the index 1 sequence on the sample sheet.  The sample sheet file SampleSheet.csv shown below should be set up for a mixed TELL-Seq (lane1) and Flex (lane2) libraries run:
  ![image](https://user-images.githubusercontent.com/56447318/119270601-7fb11900-bbcb-11eb-9411-6f9043d07202.png)
  
+element {
+  font-size: 75;
 
- |<sub>Lane|Sample_ID|Sample_Name|Sample_Plate|Sample_Well|Index_Plate|Index_Plate_Well|I7_Index_ID|index|I5_Index_ID|index2|Sample_Project|Description</sub>|
+ |Lane|Sample_ID|Sample_Name|Sample_Plate|Sample_Well|Index_Plate|Index_Plate_Well|I7_Index_ID|index|I5_Index_ID|index2|Sample_Project|Description|
  | :---: | :--------: | :--------: | :--------: | :-------: | :-------: | :---------: | :-------: | :----------------: | :-------: | :--------: |:--:|:--:|
  |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | TGTTCTAGNN |||
  |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | TCGATTGANN |||
  |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | ACTTAGCANN |||
  |  1    | TellSeq-01 | TellSeq-01 |            |           |           |             |           | NNNNNNNNNNNNNNNNNN |           | AAGGTTCANN |||
  
- 
+}
 Note: TELL-Seq custom sequencing primers must be spiked into standard sequencing primer wells on the sequencing cartridge for a run with mixed library types. 
 
 
