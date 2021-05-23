@@ -12,9 +12,9 @@ When TELL-Seq libraries and Flex libraries are sequenced together, set 18 cycles
  
  | Lane  | Sample_ID  | Sample_Name |
 | :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| col 3 is      | some wordy text |  |
+| col 2 is      | centered        |   |
+| zebra stripes | are neat        |    |
 
 
  | Lane | Sample_ID | Sample_Name | Sample_Plate | Sample_Well | Index_Plate | Index_Plate_Well | I7_Index_ID | index | I5_Index_ID | index2 | Sample_Project|Descroption |
