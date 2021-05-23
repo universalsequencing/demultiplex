@@ -10,7 +10,7 @@ To ensure compatibility with downstream demultiplexing software, each lane shoul
 When TELL-Seq libraries and Flex libraries are sequenced together, set 18 cycles for index 1 and 10 cycles for index 2. When an index length is shorter than the sequencing cycle number, add additional Ns for the missing bases for the index sequences on the sample sheet. TELL-seq libraries should designate 18 Ns as the index 1 sequence on the sample sheet.  The sample sheet file SampleSheet.csv shown below should be set up for a mixed TELL-Seq (lane1) and Flex (lane2) libraries run:
  ![image](https://user-images.githubusercontent.com/56447318/119270601-7fb11900-bbcb-11eb-9411-6f9043d07202.png)
  
- | Left-Aligned  | Center Aligned  | Right Aligned |
+ | Lane  | Sample_ID  | Sample_Name |
 | :------------ |:---------------:| -----:|
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
