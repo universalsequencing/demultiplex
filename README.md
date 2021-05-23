@@ -16,17 +16,11 @@ When TELL-Seq libraries and Flex libraries are sequenced together, set 18 cycles
  |  <sub><sub>1  | <sub><sub>TellSeq-01 | <sub><sub>TellSeq-01 |||||| <sub><sub>NNNNNNNNNNNNNNNNNN ||<sub><sub>ACTTAGCANN |||
  |  <sub><sub>1  | <sub><sub>TellSeq-01 | <sub><sub>TellSeq-01 |||||| <sub><sub>NNNNNNNNNNNNNNNNNN ||<sub><sub>AAGGTTCANN |||
 
-<table>
-<colgroup>
-<col style="width: 36px;" />
-<col style="width: 48px;" />
-<col style="width: 480px;" />
-<col style="width: 36px;" />
-<col style="width: 36px;" />
-<col style="width: 36px;" />
-</colgroup>
-<tr>
-</table>
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
  
 Note: TELL-Seq custom sequencing primers must be spiked into standard sequencing primer wells on the sequencing cartridge for a run with mixed library types. 
 
