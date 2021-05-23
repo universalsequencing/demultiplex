@@ -14,10 +14,10 @@ When TELL-Seq libraries and Flex libraries are sequenced together, set 18 cycles
 
  |<sub>Lane</sub>|<sub>Sample_ID|<sub>Sample_Name|<sub>Sample_Plate|<sub>Sample_Well|<sub>Index_Plate|<sub>Index_Plate_Well|<sub>I7_Index_ID|<sub>index|<sub>I5_Index_ID|<sub>index2|<sub>Sample_Project|<sub>Description|
  | :---: | :--------: | :--------: | :--------: | :-------: | :-------: | :---------: | :-------: | :----------------: | :-------: | :--------: |:--:|:--:|
- |  1    | <sub>TellSeq-01 | <sub>TellSeq-01 |            |           |           |             |           | <sub>NNNNNNNNNNNNNNNNNN |           |<sub>TGTTCTAGNN |||
- |  1    | <sub>TellSeq-01 | <sub>TellSeq-01 |            |           |           |             |           | <sub>NNNNNNNNNNNNNNNNNN |           |<sub>TCGATTGANN |||
- |  1    | <sub>TellSeq-01 | <sub>TellSeq-01 |            |           |           |             |           | <sub>NNNNNNNNNNNNNNNNNN |           |<sub>ACTTAGCANN |||
- |  1    | <sub>TellSeq-01 | <sub>TellSeq-01 |            |           |           |             |           | <sub>NNNNNNNNNNNNNNNNNN |           |<sub>AAGGTTCANN |||
+ |  1  | <sub>TellSeq-01 | <sub>TellSeq-01 |||||| <sub>NNNNNNNNNNNNNNNNNN ||<sub>TGTTCTAGNN |||
+ |  1  | <sub>TellSeq-01 | <sub>TellSeq-01 |||||| <sub>NNNNNNNNNNNNNNNNNN ||<sub>TCGATTGANN |||
+ |  1  | <sub>TellSeq-01 | <sub>TellSeq-01 |||||| <sub>NNNNNNNNNNNNNNNNNN ||<sub>ACTTAGCANN |||
+ |  1  | <sub>TellSeq-01 | <sub>TellSeq-01 |||||| <sub>NNNNNNNNNNNNNNNNNN ||<sub>AAGGTTCANN |||
 
 
 Note: TELL-Seq custom sequencing primers must be spiked into standard sequencing primer wells on the sequencing cartridge for a run with mixed library types. 
