@@ -16,7 +16,7 @@ When TELL-Seq libraries and Flex libraries are sequenced together, set 18 cycles
  |  <sub><sub>1  | <sub><sub>TellSeq-01 | <sub><sub>TellSeq-01 |||||| <sub><sub>NNNNNNNNNNNNNNNNNN ||<sub><sub>ACTTAGCANN |||
  |  <sub><sub>1  | <sub><sub>TellSeq-01 | <sub><sub>TellSeq-01 |||||| <sub><sub>NNNNNNNNNNNNNNNNNN ||<sub><sub>AAGGTTCANN |||
 
-|   |   |   |   |   |
+| head1 |   |   |   |   |
 |---|---|---|---|---|
 |   |   |   |   |   |
 |   |   |   |   |   |
