@@ -1,0 +1,29 @@
+[Header],,,,,,,,,,,,,,,,
+IEMFileVersion,5,,,,,,,,,,,,,,,
+Investigator Name,John Smith,,,,,,,,,,,,,,,
+Experiment Name,TellSeq-STDlib-Multiplex-001,,,,,,,,,,,,,,,
+Date,1/1/2021,,,,,,,,,,,,,,,
+Workflow,GenerateFASTQ,,,,,,,,,,,,,,,
+Application,NovaSeq FASTQ Only,,,,,,,,,,,,,,,
+Instrument Type,NovaSeq,,,,,,,,,,,,,,,
+Assay,Nextera Flex for Enrichment,,,,,,,,,,,,,,,
+Index Adapters,IDT-ILMN Nextera DNA UD Indexes,,,,,,,,,,,,,,,
+Chemistry,Amplicon,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+[Reads],,,,,,,,,,,,,,,,
+151,,,,,,,,,,,,,,,,
+151,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+[Settings],,,,,,,,,,,,,,,,
+Adapter,CTGTCTCTTATACACATCT,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+[Data],,,,,,,,,,,,,,,,
+Lane,Sample_ID,Sample_Name,Sample_Plate,Sample_Well,Index_Plate,Index_Plate_Well,I7_Index_ID,index,I5_Index_ID,index2,Sample_Project,Description,,,,
+1,TellSeq-Multiplexing-001-01,TellSeq-Multiplexing-001-01,,,,,,NNNNNNNNNNNNNNNNNN,,TGTTCTAG,,,,18,0,10
+1,TellSeq-Multiplexing-001-02,TellSeq-Multiplexing-001-02,,,,,,NNNNNNNNNNNNNNNNNN,,TCGATTGA,,,,18,0,10
+1,TellSeq-Multiplexing-001-03,TellSeq-Multiplexing-001-03,,,,,,NNNNNNNNNNNNNNNNNN,,ACTTAGCA,,,,18,0,10
+1,TellSeq-Multiplexing-001-04,TellSeq-Multiplexing-001-04,,,,,,NNNNNNNNNNNNNNNNNN,,AAGGTTCA,,,,18,0,10
+2,Flex-Multiplexing-001-01,Flex-Multiplexing-001-01,,,,,,ACTCGGCAAT,,TTCAGTTGTC,,,,18,0,10
+2,Flex-Multiplexing-001-02,Flex-Multiplexing-001-02,,,,,,GTCTAATGGC,,CCTGACCACT,,,,18,0,10
+2,Flex-Multiplexing-001-03,Flex-Multiplexing-001-03,,,,,,CCATCTCGCC,,AACCATAGAA,,,,18,0,10
+2,Flex-Multiplexing-001-04,Flex-Multiplexing-001-04,,,,,,CTGCGAGCCA,,TGGCCGGATT,,,,18,0,10
