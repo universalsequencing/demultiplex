@@ -1,1 +1,1 @@
-Let me explan!
+Let me explain!
