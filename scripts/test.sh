@@ -1,3 +1,11 @@
 #!/bin/bash
 
-./demult -i2 <I2.fastq.gz> -i1 <I1.fastq.gz> -r1 <R1.fastq.gz> -r2 <optional, R2.fastq.gz> -p <output_prefix> -m <mismatch allowed> -l <sample_index_list> 
+./demult -i2 ../fastq/Undetermined_S0_L001_I2_001.fastq.gz \
+	 -i1 ../fastq/Undetermined_S0_L001_I1_001.fastq.gz \
+	 -r1 ../fastq/Undetermined_S0_L001_R1_001.fastq.gz \
+	 -r2 ../fastq/Undetermined_S0_L001_R2_001.fastq.gz \
+	 -p test \
+	 -l ../test/sample_index_list.txt 
+
+#pigz *.fastq
+gzip *.fastq
