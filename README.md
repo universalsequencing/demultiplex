@@ -15,7 +15,7 @@ Note: TELL-Seq custom sequencing primers must be spiked into standard sequencing
 
 To proceed with sample demultiplexing after the sequencing run, the sample sheet file must be modified to remove N’s trailing the sample barcode for index 1 and index 2 sequences. All samples from the same lane must designate the same length for index 1 and index 2. An example of such a sample sheet SampleSheet_after_seq_run.csv is given in test directory.
 
-### Demultiplexing of Flex library samples
+## 3.	 Demultiplexing of Flex library samples
 
 Demultiplexing can be performed using the normal bcl2fastq workflow as in the following to produce a standard set of FASTQ files for each Flex library. 
 
@@ -23,7 +23,7 @@ Demultiplexing can be performed using the normal bcl2fastq workflow as in the fo
 bcl2fastq -R [ --runfolder-dir ] -o [ --output-dir ] --create-fastq-for-index-reads --sample-sheet /path/to/SampleSheet_after_seq_run.csv
 ```
 
-### Demultiplexing of TELL-Seq library samples
+## 4.	 Demultiplexing of TELL-Seq library samples
 
 For TELL-Seq lane, this results in a set of FASTQ files that are not sample demultiplexed (Undetermined) and need to be further processed using the TELL-Seq demultiplexing software:
 
