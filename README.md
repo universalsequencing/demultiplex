@@ -37,5 +37,5 @@ Undetermined_S0_L001_R2_001.fastq.gz
 Execute following step to demultiplex TELL-Seq samples:
 
 ```
-demult Undetermined_S0_L001_I2_001.fastq.gz Undetermined_S0_L001_R1_001.fastq.gz Undetermined_S0_L001_R2_001.fastq.gz sample_index_list
+demult -i2 Undetermined_S0_L001_I2_001.fastq.gz -i1 Undetermined_S0_L001_I1_001.fastq.gz -r1 Undetermined_S0_L001_R1_001.fastq.gz -r2 Undetermined_S0_L001_R2_001.fastq.gz -p myrun -l sample_index_list
 ```
